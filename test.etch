@@ -1,0 +1,10 @@
+gen_next = function(l)
+    i = last(l)
+    n = 3*i+1 if i%2==1 else i/2
+    nl = append(l,n)
+    gen_next(nl) if n!=1 else nl
+
+public main = function(start)
+    gen_next([start])
+
+

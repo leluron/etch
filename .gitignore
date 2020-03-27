@@ -1,0 +1,5 @@
+.deps
+.obj
+src/parser
+main
+grammar_tests
